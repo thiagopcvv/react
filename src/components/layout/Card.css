@@ -1,0 +1,23 @@
+.Card {
+    background-color: rgb(123, 116, 106);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card .titulo{
+    background-color: azure;
+    color: #000;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    color: white;
+    padding: 20px;
+    flex: 1;
+}
