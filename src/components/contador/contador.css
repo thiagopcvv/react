@@ -1,0 +1,14 @@
+.contador button{
+    border-radius: 10px;
+    background-color: rgb(60, 72, 72);
+    color: white;
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px 0px 0px;
+}
+
+.contador button:hover{
+    background-color: rgb(98, 118, 118);
+    cursor: pointer;
+}

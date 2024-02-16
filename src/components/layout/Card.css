@@ -6,6 +6,8 @@
     margin: 20px;
     display: flex;
     flex-direction: column;
+    max-width: 200px;
+    min-width: 200px;
 }
 
 .Card .titulo{
