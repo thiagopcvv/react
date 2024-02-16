@@ -3,7 +3,7 @@ import alunos from '../../datas/alunos'
 
 export default props => {
 
-    const lis = alunos.map((aluno) => {
+    const liss = alunos.map((aluno) => {
         return (
         <li key={aluno.id}>
             {aluno.id} {aluno.nome} : {aluno.nota}
@@ -14,7 +14,7 @@ export default props => {
     return (
         <div>
             <ul style={{listStyle: 'none'}}>
-                {lis}
+                {liss}
             </ul>
         </div>
     )
