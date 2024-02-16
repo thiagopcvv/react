@@ -6,6 +6,9 @@ import Fragmento from './components/basicos/Fragmento'
 import Aleatorio from './components/basicos/Aleatorio'
 import Card from "./components/layout/Card";
 import './app.css'
+import Familia from "./components/basicos/Familia";
+import FamiliaMembro from "./components/layout/FamiliaMembro";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
 
 // let n1 =+ prompt('Insira um número');
 // let n2 =+ prompt('Insira outro número');
@@ -28,11 +31,21 @@ export default (props) => {
                     <First />
                 </Card>
 
-                <Card titulo="Segundo Componente">
+                <Card titulo="Segundo Componente" color="#000">
                     <Com title="Segundo comp" subtitulo="subLegal" nota={9} />
                 </Card>
                 <Card titulo="Fragmento">
                     <Fragmento />
+                </Card>
+                <Card titulo="Familia com membro">
+                    <Familia sobrenome="Pires">
+                        <FamiliaMembro nome="Thiago"></FamiliaMembro>
+                        <FamiliaMembro nome="Maria Clara"></FamiliaMembro>
+                        <FamiliaMembro nome="Jose"></FamiliaMembro>
+                    </Familia>
+                </Card>
+                <Card titulo="Lista de Alunos" color="#FF4C65">
+                    <ListaAlunos></ListaAlunos>
                 </Card>
             </div>
         </div>
