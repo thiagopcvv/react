@@ -17,6 +17,7 @@ import IndiretaPai from "./components/comunicacaoIndireta/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
 import Mega from "./components/mega/Mega";
+import MegaCerto from "./components/megaCerto/MegaCerto";
 
 // let n1 =+ prompt('Insira um número');
 // let n2 =+ prompt('Insira outro número');
@@ -78,6 +79,9 @@ export default (props) => {
                 </Card>
                 <Card titulo="Mega Sena gerador ">
                     <Mega></Mega>
+                </Card>
+                <Card titulo="Mega Certo ">
+                    <MegaCerto></MegaCerto>
                 </Card>
             </div>
         </div>
